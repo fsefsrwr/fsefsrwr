@@ -1,68 +1,93 @@
-<!--简介-->
+<!--基本内容-->
 <!DOCTYPE html>
 <html>
 
 <head>
-    <!--网页标题、网页编码、网页自适应、网页图标-->
-    <title>阅图</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <link rel="icon" type="image/x-icon" href="./网页图标.ico">
-    <link rel="stylesheet" href="./info-style.css">
-    <style>
-        div.maps li {
-            list-style: none;
-        }
+	<!--网页标题、网页编码、网页自适应、网页图标-->
+	<title>阿林</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src=".\info-function.js"></script>
+	<meta charset="utf-8">
+	<link rel="icon" type="image/x-icon" href="./网页图标.ico">
+	<link rel="stylesheet" href="./user-style.css">
+	<style>
+		div.map div.China {
+			width: 100px;
+			height: 200px;
+			margin-left: 60%;
+			margin-top: 1%;
+			;
+		}
 
-        table a {
-            color: rgb(4, 253, 4);
-            text-decoration: none;
-        }
-    </style>
+		div.map div.World {
+			width: 100px;
+			height: 200px;
+			margin-top: -17%;
+			margin-left: 20%;
+		}
+	</style>
 </head>
 
 <body>
-    <header>
-        <div
-            style="display: grid;grid-template-rows: 1fr;width: 1520px;height: 200px;border: 1px solid white;margin-left: -1%;margin-top: -1%;">
-            <h1 style="color: white;font-size:70px;">中华人民共和国行政区划详细地图在线浏览</h1>
-        </div>
-        <div class="maps"
-            style="display: grid;grid-template-rows: 1fr 1fr 1fr;width: 1520px;height: 1000px;border: 1px solid white;margin-left: -1%">
-            <table>
-                <thead>
-                    <td>直辖市</td>
-                    <td>特别行政区</td>
-                    <td>省级行政区</td>
-                    <td>省级自治区</td>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td><a href="./beijing tianjin chongqin shanghai.html" target="_blank" title="点击在线查看地图">北京市
-                                上海市<br>重庆市 天津市</a>
-                        </td>
-                        <td><a href="./xiangang aomen.html" target="_blank" title="点击在线查看地图">香港特别行政区<br>澳门别行政区</a></td>
-                        <td><a href="./guizhou.html" target="_blank" title="点击在线查看地图">贵州省</a></td>
-                        <td><a href="./guangxi.html" target="_blank" style="color:rgb(1, 253, 1)"
-                                title="点击在线查看地图">广西壮族自治区</a></td>
-                    </tr>
-                    <tr>
-                        <td></td>
-                        <td></td>
-                        <td><a href="" target="_blank" style="color: red;" title="点击在线查看地图">湖南省</a></td>
-                        <td><a href="" target="_blank" style="color: red;" title="点击在线查看地图">西藏自治区</a></td>
-                    </tr>
-                    <tr>
-                        <td></td>
-                        <td></td>
-                        <td><a href="./guangdong.html" target="_blank" style="color:rgb(3, 248, 3);"
-                                title="点击在线查看地图">广东省</a></td>
-                    </tr>
-                    <tr>
-                        <td></td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
-    </header>
+	<div class="main-box" style="width: 100%;height: 0%;">
+		<div id="title-t" style="width: 1550px;;">
+			<h1 style="white-space: nowrap;">阿 林 的 个 人 网 站</h1>
+		</div>
+		<pcm style="width:1550px;;">
+			<img src=".\网页背景.png" alt="背景图" width="100%" height="570px"><!--height:宽度-->
+		</pcm>
+		<seach style="width: 1510.5px;;">
+			<!--导航栏-->
+			<div class="nav" style="width: 1550px;">
+				<ul>
+					<!--作品列表-->
+					<a href=".\user pc.html" target="_blank" title="点击查看地图作品和绘画作品"> 地图</a>
+					<a href=".\user pc exe.html" target="_blank" title="点击查看编程作品">编程</a>
+					<!--简介列表-->
+					<a href=".\user info-1.html" target="_blank" title="点击在线浏览中华人民共和国行政区划详细地图">阅图</a>
+					<!--其他作品列表-->
+					<a href="https://www.kuaishou.com/profile/3xzqyrrsysdbq8a" target="_blank" title="点击进入编程快手">快手1</a>
+					<a href="https://www.kuaishou.com/profile/3xgzvza5aphidn6" target="_blank" title="点击进入绘画快手">快手2</a>
+				</ul>
+			</div>
+		</seach>
+
+		<header style="height: 400px;width: 1550px;">
+			<div class="wx"
+				style="width: 160px;height: 170px;background-color:none;margin-left:180% ;margin-top: 60%;border:none;">
+				<p style="white-space: nowrap;font-size: 20px;color: black;">联系方式（qq）</p>
+				<img src="./qq.jpg" width="170px" height="170px">
+			</div>
+			<div class="pct">
+				<img src=".\头像.png" alt="头像" width="160px" height="160px">
+				<a href="./web administrators.html" target="_blank" style="margin-left: -50%;">查看网站管理员信息</a>
+			</div>
+			<div class="map" style="width:1200px;height: 400px;margin-left: -10%;">
+				<!-- 引用中国地图网页 -->
+				<div class="China">
+					<p style="margin-left: 0%;color: black;white-space: nowrap;">中华人民共和国地图</p>
+					<object data="./china%20map.html" type="text/html" width="400px" height="300px"
+						style="background-color:none;margin-left: 0%;margin-top: 0%;border: 1px solid black;"></object>
+				</div>
+				<!-- 引用世界地图 -->
+				<!-- white-space: nowrap禁止文本换行 -->
+				<div class="World">
+					<p style="margin-left: 0%;color: black;white-space: nowrap;">世界地图</p>
+					<object data="./world map.html" type="text/html" style="border: 1px solid black;margin-left: 0%;"
+						width="400px" height="300px"></object>
+				</div>
+			</div>
+
+	</div>
+	</div>
+	</header>
+	<main>
+		<div class="bi" style="width: 1550px;">
+			<img src="./欢迎.png" width="100%">
+		</div>
+	</main>
+	<!-- position: absolute绝对定位 -->
+	</div>
 </body>
+
+</html>
